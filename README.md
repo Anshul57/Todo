@@ -13,7 +13,7 @@ Task Tracker is a full-stack task management application built using React, Expr
 
 - **Frontend**: React, Axios, Tailwind CSS
 - **Backend**: Express.js, Node.js
-- **Database**: None (uses in-memory data storage)
+- **Database**: MongoDB
 
 ## Installation
 
