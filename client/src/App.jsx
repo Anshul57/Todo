@@ -11,7 +11,7 @@ function App() {
     try {
       const response = await axios.get("http://localhost:3000/")
       setData(response.data)
-      console.log(response.data)
+      // console.log(response.data)
     } catch (error) {
       console.error("Axios fetched an error: "+ error)
     }
@@ -31,10 +31,10 @@ function App() {
 
   const deleteTodo = async (id) => {
     try {
-      console.log(id)
+      // console.log(id)
         const response = await axios.delete("http://localhost:3000/delete-todo/" + id)
         setData(response.data)
-        console.log(response.data)
+        // console.log(response.data)
     } catch (error) {
       console.error("Unable to delete error: "+ error)
     }
